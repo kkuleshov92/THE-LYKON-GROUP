@@ -1,4 +1,8 @@
 
+//=include ../components/header/header.js
+//=include ../components/kind/kind.js
+//=include ../components/way/way.js
+//=include ../components/process/process.js
 //=include ../components/header-about/header-about.js
 //=include ../components/borrow/borrow.js
 //=include ../components/help/help.js

@@ -1,7 +1,10 @@
 .borrow {
-	background: $mainColor;
+	background: #efefef;
 	&__title {
 		font-size: 15px;
+	}
+	&__wrap {
+		width: 920px;
 	}
 
 }

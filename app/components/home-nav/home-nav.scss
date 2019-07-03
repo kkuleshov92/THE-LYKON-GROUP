@@ -2,6 +2,12 @@
     position: absolute;
     width: 100%;
     padding-top: 62px;
+    &.active {
+        position: fixed;
+        background: #000;
+        top: 0;
+        padding: 20px 0;
+    }
     &__logo {
         max-width: 254px;
     }
@@ -41,6 +47,10 @@
     }
 }
 
+.mob-menu {
+    display: none;
+    transform: translateY(-320px);
+}
 
 @media (max-width: 1189px) {
     .home-nav {
@@ -50,6 +60,14 @@
 @media (max-width: 1023px) {
     .home-nav {
         padding-top: 30px;
+        &.active {
+            .home-nav__logo {
+                display: none;
+            }
+            nav {
+                margin-top: 0;
+            }
+        }
         &__logo {
             width: 250px;
         }
@@ -86,6 +104,11 @@
 }
 @media (max-width: 479px) {
     .home-nav {
+        &.active {
+            .home-nav__logo {
+                display: block;
+            }
+        }
         &__wrap {
             flex-direction: row;
             justify-content: space-between;
@@ -101,11 +124,34 @@
         position: fixed;
         right: 0;
         top: 0;
-        padding: 30px;
+        padding: 80px 50px 30px;
         background: #000;
-        transform: translateY(-270px);
+        transition: .3s;
+        display: block;
+        &__close {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            &::before,
+            &::after {
+                content: '';
+                background: #fff;
+                width: 3px;
+                height: 25px;
+                display: block;
+                position: absolute;
+                top: 20px;
+                left: 50%;
+            }
+            &::before {
+                transform: rotate(45deg);
+            }
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
         &.active {
-            transform: translateY(0);
+            transform: translateY(68px);
         }
         &__link {
             color: #fff;
@@ -119,10 +165,10 @@
             text-align: center;
         }
         &__btn {
-            font-size: 20px;
-            height: 28px;
-            line-height: 28px;
-            padding: 0 10px;
+            font-size: 22px;
+            height: 35px;
+            line-height: 35px;
+            padding: 0 15px;
         }
     }
 }

@@ -45,6 +45,20 @@
  }
 @media (max-width: 767px) {
 	.story {
+		&__photo {
+			display: none;
+		}
+		&__content {
+			width: 100%;
+		}
+		&__title {
+			text-align: center;
+		}
+		&__text {
+			&_push {
+				margin-top: 12px;
+			}	
+		}
 	}
  }
 @media (max-width: 639px) {

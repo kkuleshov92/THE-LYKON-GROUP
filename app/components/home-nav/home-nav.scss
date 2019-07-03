@@ -2,40 +2,127 @@
     position: absolute;
     width: 100%;
     padding-top: 62px;
-
+    &__logo {
+        max-width: 254px;
+    }
     &__wrap {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
     nav {
         display: flex;
         align-items: center;
         padding-top: 5px;
     }
-
     &__list {
         display: flex;
     }
-
     &__link {
         font-size: 18px;
         color: #fff;
         line-height: 40px;
+        transition: .3s;
         &:hover {
             color: $mainColor;
         }
     }
-
     &__item {
         margin-right: 35px;
     }
-
     &__btn {
         font-size: 18px;
         height: 40px;
         line-height: 40px;
         padding: 0 22px;
+    }
+    &__ham {
+        display: none;
+    }
+}
+
+
+@media (max-width: 1189px) {
+    .home-nav {
+        padding-top: 50px;
+    }
+}
+@media (max-width: 1023px) {
+    .home-nav {
+        padding-top: 30px;
+        &__logo {
+            width: 250px;
+        }
+        &__wrap {
+            flex-direction: column;
+        }
+        nav {
+            margin-top: 10px;
+            padding-top: 0;
+        }
+    }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 639px) {
+    .home-nav {
+        &__logo {
+            width: 200px;
+        }
+        &__link {
+            font-size: 16px;
+            line-height: 35px;
+        }
+        &__item {
+            margin-right: 20px;
+        }
+        &__btn {
+            font-size: 16px;
+            line-height: 35px;
+            height: 35px;
+            padding: 0 15px;
+        }
+    }
+}
+@media (max-width: 479px) {
+    .home-nav {
+        &__wrap {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        nav {
+            display: none;
+        }
+        &__ham {
+            display: block;
+        }
+    }
+    .mob-menu {
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 30px;
+        background: #000;
+        transform: translateY(-270px);
+        &.active {
+            transform: translateY(0);
+        }
+        &__link {
+            color: #fff;
+            font-size: 20px;
+            &:hover {
+                color: $mainColor;
+            }
+        }
+        &__item {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        &__btn {
+            font-size: 20px;
+            height: 28px;
+            line-height: 28px;
+            padding: 0 10px;
+        }
     }
 }

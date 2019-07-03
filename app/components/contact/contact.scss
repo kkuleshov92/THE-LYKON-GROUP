@@ -1,0 +1,23 @@
+.contact {
+	background: url(../img/about-backg3.jpg) center center / cover;;
+	padding: 86px 0 99px;
+
+	&__title {
+		width: 790px;
+		font-size: 43px;
+		text-transform: none;
+	}
+
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__btn {
+		width: 256px;
+		height: 64px;
+		margin-top: 21px;
+		font-size: 25px;
+		line-height: 57px;
+	}
+}

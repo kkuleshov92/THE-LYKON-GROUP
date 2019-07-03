@@ -1,4 +1,5 @@
 
+//=include ../components/home-nav/home-nav.js
 //=include ../components/header/header.js
 //=include ../components/kind/kind.js
 //=include ../components/way/way.js

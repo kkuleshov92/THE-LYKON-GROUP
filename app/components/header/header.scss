@@ -29,13 +29,63 @@
 
 
 @media (max-width: 1189px) {
-    
+    .header {
+        padding-top: 250px;
+        &__text {
+            width: 100%;
+        }
+
+        &__title {
+            font-size: 32px;
+        }
+    }
 }
 @media (max-width: 1023px) {
+    .header {
+        &.block {
+            padding-top: 200px;
+        }
+        &__title {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 18px;
+        }
+        &__borrow-btn,
+        &__invest-btn {
+            margin: 0;
+            width: 45%;
+        }
+        &__btns {
+            justify-content: space-between;
+        }
+    }
 }
 @media (max-width: 767px) {
+    .header {
+
+        &__title {
+            font-size: 28px;
+            width: 100%;
+        }
+
+        &__borrow-btn,
+        &__invest-btn {
+            font-size: 20px;
+            height: 40px;
+            line-height: 40px;
+        }
+    }
 }
 @media (max-width: 639px) {
+    .header {
+        &.block {
+            padding-top: 150px;
+        }
+    }
 }
 @media (max-width: 479px) {
+    .header {
+       
+    }
 }

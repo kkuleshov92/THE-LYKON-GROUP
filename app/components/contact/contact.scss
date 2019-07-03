@@ -60,9 +60,21 @@
  }
 @media (max-width: 639px) {
 	.contact {
+		&__title {
+			font-size: 27px;
+		}
 	}
  }
 @media (max-width: 479px) {
 	.contact {
+		&__title {
+			font-size: 25px;
+		}
+		&__btn {
+			height: 40px;
+		    font-size: 19px;
+		    width: 200px;
+		    line-height: 40px;
+		}
 	}
  }

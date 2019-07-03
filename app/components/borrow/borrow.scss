@@ -47,5 +47,10 @@
  }
 @media (max-width: 479px) {
 	.borrow {
+		&__btn {
+			height: 40px;
+			font-size: 18px;
+			line-height: 40px;
+		}
 	}
  }

@@ -1,0 +1,20 @@
+.header-about {
+	background: url('../img/about-background.jpg');
+
+	&__title {
+		text-align: center;
+	}
+
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__item {
+
+	}
+
+	&__subtitle {
+		
+	}
+}

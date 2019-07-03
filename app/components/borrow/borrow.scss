@@ -10,6 +10,7 @@
 		width: 912px;
 		margin: 0 auto;
 		height: 64px;
+		line-height: 64px;
 	}
 
 	&__text {
@@ -38,6 +39,7 @@
 		&__btn {
 			height: 55px;
 			font-size: 22px;
+			line-height: 55px;
 		}
 	}
  }
@@ -49,7 +51,7 @@
 	.borrow {
 		&__btn {
 			height: 40px;
-			font-size: 18px;
+			font-size: 20px;
 			line-height: 40px;
 		}
 	}

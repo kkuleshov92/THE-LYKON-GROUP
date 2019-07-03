@@ -1,6 +1,41 @@
 .header {
+    background: url('../img/home-background.jpg') no-repeat center top / cover;
+    color: #fff;
+    padding: 300px 0 201px;
     &__title {
         font-size: 36px;
         text-align: center;
+        width: 600px;
+        margin: 0 auto;
+        text-transform: none;
+        line-height: 1.2;
     }
+    &__btns {
+        display: flex;
+        justify-content: center;
+        margin-top: 31px;
+    }
+    &__text {
+        width: 920px;
+        font-size: 22px;
+        margin: 26px auto 0;
+    }
+    &__borrow-btn,
+    &__invest-btn {
+        width: 445px;
+        margin: 0 15px;
+    }
+}
+
+
+@media (max-width: 1189px) {
+    
+}
+@media (max-width: 1023px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 639px) {
+}
+@media (max-width: 479px) {
 }

@@ -1,0 +1,13 @@
+.slogan {
+	background: url(../img/about-backgr2.jpg) center center / cover;
+	padding: 174px 0 182px;
+
+	&__title {
+		width: 635px;
+		font-family: 'Roboto Condensed', sans-serif;
+		color: #fff;
+		font-size: 26px;
+		display: block;
+		margin-left: auto;
+	}
+}

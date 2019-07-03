@@ -21,3 +21,27 @@
 		line-height: 57px;
 	}
 }
+
+@media (max-width: 1189px) {
+	.contact {
+		&__title {
+			width: 670px;
+		}
+	}
+ }
+@media (max-width: 1023px) {
+	.contact {
+	}
+ }
+@media (max-width: 767px) {
+	.contact {
+	}
+ }
+@media (max-width: 639px) {
+	.contact {
+	}
+ }
+@media (max-width: 479px) {
+	.contact {
+	}
+ }

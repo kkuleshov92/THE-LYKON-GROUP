@@ -22,3 +22,36 @@
 		}
 	}
 }
+
+@media (max-width: 1189px) {
+	.story {
+		&__content {
+			width: 575px;
+		}
+	}
+ }
+@media (max-width: 1023px) {
+	.story {
+		&__wrap{
+			align-items: flex-start;
+		}
+		&__content {
+			width: 380px;
+		}
+		&__title {
+			margin: 0 0 12px;
+		}
+	}
+ }
+@media (max-width: 767px) {
+	.story {
+	}
+ }
+@media (max-width: 639px) {
+	.story {
+	}
+ }
+@media (max-width: 479px) {
+	.story {
+	}
+ }

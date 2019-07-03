@@ -33,3 +33,36 @@
 		margin: 19px 0 22px;
 	}
 }
+
+@media (max-width: 1189px) {
+	.help {
+		&__block {
+		width: 320px;
+		}
+		&__content {
+			width: 620px;
+		}
+	}
+ }
+@media (max-width: 1023px) {
+	.help {
+		&__block {
+			width: 275px;
+		}
+		&__content {
+			width: 445px;
+		}
+	}
+ }
+@media (max-width: 767px) {
+	.help {
+	}
+ }
+@media (max-width: 639px) {
+	.help {
+	}
+ }
+@media (max-width: 479px) {
+	.help {
+	}
+ }

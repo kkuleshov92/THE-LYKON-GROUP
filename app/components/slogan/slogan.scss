@@ -11,3 +11,28 @@
 		margin-left: auto;
 	}
 }
+
+@media (max-width: 1189px) {
+	.slogan {
+		padding: 154px 0 160px;
+	}
+ }
+@media (max-width: 1023px) {
+	.slogan{
+		&__title {
+			margin: 0 auto;
+		}
+	}
+ }
+@media (max-width: 767px) {
+	.slogan{
+	}
+ }
+@media (max-width: 639px) {
+	.slogan{
+	}
+ }
+@media (max-width: 479px) {
+	.slogan{
+	}
+ }

@@ -15,17 +15,25 @@
 @media (max-width: 1189px) {
 	.slogan {
 		padding: 154px 0 160px;
+		&__title {
+			font-size: 24px;
+		}
 	}
  }
 @media (max-width: 1023px) {
 	.slogan{
 		&__title {
 			margin: 0 auto;
+			font-size: 22px;
 		}
 	}
  }
 @media (max-width: 767px) {
 	.slogan{
+		&__title {
+			font-size: 21px;
+			width: 85%;
+		}
 	}
  }
 @media (max-width: 639px) {

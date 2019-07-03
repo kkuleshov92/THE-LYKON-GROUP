@@ -1,0 +1,35 @@
+.help {
+	padding: 87px 0 76px;
+	&__wrap {
+	    display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__block {
+		width: 349px;
+		border-top: 15px solid $mainColor;
+	}
+	&__meaning {
+		line-height: 1.219em;
+	}
+
+	&__content {
+		width: 730px;
+		margin-top: -3px;
+	}
+	&__text {
+		&_push {
+			margin-top: 21px;
+		}
+	}
+
+	&__title {
+		color: #1e1e1e;
+		text-align: center;
+		margin: 19px 0 22px;
+	}
+}

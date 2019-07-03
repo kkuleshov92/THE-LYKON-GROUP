@@ -86,6 +86,16 @@
 }
 @media (max-width: 479px) {
     .header {
-       
+       &__btns {
+           flex-direction: column;
+           align-items: center;
+       }
+       &__borrow-btn,
+       &__invest-btn {
+           width: 80%;
+       }
+       &__invest-btn {
+           margin-top: 20px;
+       }
     }
 }

@@ -2,9 +2,10 @@ $mainColor: #dcac22;
 
 body {	
 	font-family: 'Cabin', sans-serif;
-	font-size: 14px;
+	font-size: 19px;
 	overflow-x: hidden;
-	color: #383838;
+	color: #616161;
+	letter-spacing: 0;
 }
 
 img {
@@ -43,6 +44,7 @@ svg {
 	text-transform: capitalize;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 700;
+	color: fff;
 	@include r(1219){
 		font-size: 30px;
 	}
@@ -79,4 +81,7 @@ svg {
 	height: 51px;
 	line-height: 51px;
 	color: #fff;
+	border-radius: 8px;
+	display: block;
+
 }

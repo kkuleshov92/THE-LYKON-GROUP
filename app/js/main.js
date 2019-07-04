@@ -3,7 +3,7 @@
 //=include ../components/page-nav/page-nav.js
 //=include ../components/header/header.js
 //=include ../components/kind/kind.js
-//=include ../components/way/way.js
+//=include ../components/reason/reason.js
 //=include ../components/process/process.js
 //=include ../components/header-page/header-page.js
 //=include ../components/borrow/borrow.js

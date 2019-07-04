@@ -21,9 +21,15 @@ img {
 svg {
 	overflow: hidden;
 }
+
 p {
-	line-height: 1.219em;
+	line-height: 1.22em;
 	letter-spacing: 0;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: bold;
 }
 
 .container {
@@ -97,5 +103,19 @@ p {
 	transition: .3s;
 	&:hover {
 		background: #b18814;
+	}
+
+	@include r(1189) {
+	}
+	@include r(1023){
+	}
+	@include r(767){
+		font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+	}
+	@include r(639){
+	}
+	@include r(479){;
 	}
 }

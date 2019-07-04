@@ -1,7 +1,15 @@
 .header-about {
-	background: url('../img/about-background.jpg');
+	background: url('../img/about-background.jpg') center center / cover;
+	color: #fff;
+	padding: 167px 0 77px;
 
 	&__title {
+		text-transform: uppercase;
+		margin-bottom: 82px;
+	}
+
+	&__title, &__subtitle {
+		font-size: 36px;
 		text-align: center;
 	}
 
@@ -11,10 +19,150 @@
 	}
 
 	&__item {
+		width: 350px;
+		border: 3px solid #fff;
+		border-top: none;
+		padding: 0 25px 33px;
+		position: relative;
+	}
+
+	&__item:before {
+		content: '';
+		background: #fff;
+		position: absolute;
+		top: 0;
+		left:  0;
+		height: 3px;
+		width: 23%;
+	}
+
+	&__item:after {
+		content: '';
+		background: #fff;
+		position: absolute;
+		top: 0;
+		right:  0;
+		height: 3px;
+		width: 23%;
 
 	}
+
 
 	&__subtitle {
-		
+		margin: -20px 0 39px;
+	}
+
+	&__text {
+		font-size: 22px;
+		margin-bottom: 49px;
+	}
+
+	&__btn {
+		width: 98%;
 	}
 }
+
+@media (max-width: 1189px) { 
+	.header-about {
+		&__item {
+			width: 32%;
+		}
+		&__item:before {
+			width: 20%;
+		}
+		&__item:after {
+			width: 20%;
+		}
+ 	}
+}
+@media (max-width: 1023px) {
+	.header-about{
+		&__wrap {
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		&__item {
+			width: 45%;
+			&_push {
+				margin-top: 50px;
+			}
+		}
+		&__text {
+			font-size: 21px;
+			margin-bottom: 40px;
+		}
+		&__title, &__subtitle {
+			font-size: 34px;
+		}
+		&__title {
+			margin: 50px;
+		}
+		&__subtitle {
+		    margin: -20px 0 20px;
+		}
+	}
+ }
+@media (max-width: 767px) {
+	.header-about {
+		&__item {
+			width: 49%;
+			padding: 0 20px 25px;
+
+			&_push {
+				margin-top: 40px;
+			}
+		}
+		&__text {
+			font-size: 20px;
+			margin-bottom: 30px;
+		}
+		&__title, &__subtitle {
+			font-size: 32px;
+		}
+		&__title {
+			margin: 40px;
+		}
+	}
+ }
+@media (max-width: 639px) {
+	.header-about {
+		&__title, &__subtitle {
+			font-size: 28px;
+		}
+		&__item {
+			width: 90%;
+			padding: 0 20px 25px;
+			margin-bottom: 40px;
+
+			&_push {
+				margin-top: 0;
+			}
+		}
+		&__item:before {
+			width: 25%;
+		}
+		&__item:after {
+			width: 25%;
+		}
+		&__text {
+			font-size: 19px;
+			margin-bottom: 20px;
+		}
+	}
+ }
+@media (max-width: 479px) {
+	.header-about {
+		&__title, &__subtitle {
+			font-size: 25px;
+		}
+		&__item {
+			width: 100%;
+			padding: 0 15px 20px;
+			margin-bottom: 40px;
+		}
+		&__text {
+			font-size: 18px;
+			margin-bottom: 15px;
+		}
+	}
+ }

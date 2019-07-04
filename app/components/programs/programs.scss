@@ -38,6 +38,8 @@
 		padding: 42px 53px 71px 53px;
 		background: #fff;
 		margin-bottom: 28px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	&__wrap {
@@ -74,6 +76,7 @@
 
 	&__btn {
 		font-size: 22px;
+		margin-top: auto;
 	}
 }
 

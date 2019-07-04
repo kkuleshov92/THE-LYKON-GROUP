@@ -1,5 +1,5 @@
 .header-page {
-	background: url('../img/about-background.jpg') center center / cover;
+	background: url('../img/about-background.jpg') no-repeat center top / cover;
 	color: #fff;
 	padding: 167px 0 77px;
 
@@ -24,6 +24,8 @@
 		border-top: none;
 		padding: 0 25px 33px;
 		position: relative;
+		display: flex;
+		flex-direction: column;
 	}
 
 	&__item:before {
@@ -59,6 +61,7 @@
 
 	&__btn {
 		width: 98%;
+		margin-top: auto;
 	}
 }
 
@@ -101,7 +104,7 @@
 			margin-bottom: 50px;
 		}
 		&__subtitle {
-		    margin: -20px 0 20px;
+		    margin: -18px 0 20px;
 		}
 	}
  }
@@ -124,6 +127,9 @@
 		}
 		&__title {
 			margin-bottom: 40px;
+		}
+		&__subtitle {
+			margin: -16px 0 39px;
 		}
 	}
  }

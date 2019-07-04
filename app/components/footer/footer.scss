@@ -1,0 +1,144 @@
+.footer {
+    padding-top: 56px;
+    background: #efefef;
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__subtitle {
+        font-family: 'Cabin', sans-serif;
+        color: #242424;
+    }
+    &__box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+        &_1 {
+        }
+        &_2 {
+            margin-left: 122px;
+        }
+        &_3 {
+            align-items: flex-end;
+            margin-left: auto;
+            margin-left: 198px;
+        }
+    }
+    &__info {
+        display: flex;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        &_3 {
+            align-items: flex-end;
+        }
+    }
+    &__link {
+        color: #616161;
+        line-height: 1.25;
+    }
+    a.footer__link:hover {
+        color: #242424;
+    }
+    &__strip {
+        font-size: 14px;
+        color: #fff;
+        background: $mainColor;
+        text-align: center;
+        padding: 12px 0 16px;
+        margin-top: 50px;
+    }
+    &__logo-box {
+        max-width: 254px;
+    }
+}
+
+@media (max-width: 1189px) {
+	.footer {
+        &__box {
+            &_2 {
+                margin-left: 70px;
+            }
+            &_3 {
+                margin-left: 100px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+	.footer {
+        padding-top: 40px;
+        &__wrap {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__info {
+            margin-top: 30px;
+            width: 100%;
+            justify-content: space-between;
+        }
+        &__box {
+            margin-top: 0;
+            margin-left: 0;
+        }
+        &__list {
+            margin-top: 20px;
+        }
+        &__strip {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+	.footer {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 639px) {
+	.footer {
+        &__logo-box {
+            width: 200px;
+        }
+        &__list {
+            margin-top: 15px;
+        }
+        &__info {
+            flex-wrap: wrap;
+        }
+        &__box {
+            &_2 {
+                order: 1;
+            }
+        }
+    }
+}
+
+@media (max-width: 479px) {
+	.footer {
+        padding-top: 25px;
+        &__info {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__box {
+            align-items: center;
+            &_2 {
+                order: 0;
+                margin-top: 15px;
+            }
+            &_3 {
+                margin-top: 15px;
+            }
+        }
+        &__list {
+            align-items: center;
+            margin-top: 5px;
+        }
+    }
+}

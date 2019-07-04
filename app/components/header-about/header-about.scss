@@ -1,4 +1,4 @@
-.header-about {
+.header-page {
 	background: url('../img/about-background.jpg') center center / cover;
 	color: #fff;
 	padding: 167px 0 77px;
@@ -63,7 +63,7 @@
 }
 
 @media (max-width: 1189px) { 
-	.header-about {
+	.header-page {
 		&__item {
 			width: 32%;
 		}
@@ -76,7 +76,7 @@
  	}
 }
 @media (max-width: 1023px) {
-	.header-about{
+	.header-page{
 		&__wrap {
 			flex-wrap: wrap;
 			justify-content: space-around;
@@ -103,7 +103,7 @@
 	}
  }
 @media (max-width: 767px) {
-	.header-about {
+	.header-page {
 		&__item {
 			width: 49%;
 			padding: 0 20px 25px;
@@ -125,7 +125,7 @@
 	}
  }
 @media (max-width: 639px) {
-	.header-about {
+	.header-page {
 		&__title, &__subtitle {
 			font-size: 28px;
 		}
@@ -151,7 +151,7 @@
 	}
  }
 @media (max-width: 479px) {
-	.header-about {
+	.header-page {
 		&__title, &__subtitle {
 			font-size: 25px;
 		}

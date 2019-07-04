@@ -1,4 +1,4 @@
-.home-nav {
+.page-nav {
     position: absolute;
     width: 100%;
     padding-top: 62px;
@@ -31,6 +31,9 @@
         color: #fff;
         line-height: 40px;
         transition: .3s;
+        &.active {
+            color: $mainColor;
+        }
         &:hover {
             color: $mainColor;
         }
@@ -50,21 +53,26 @@
     }
 }
 
+.about-page .page-nav__link_about,
+.service-page .page-nav__link_service {
+    color: $mainColor;
+}
+
 .mob-menu {
     display: none;
     transform: translateX(220px);
 }
 
 @media (max-width: 1189px) {
-    .home-nav {
+    .page-nav {
         padding-top: 50px;
     }
 }
 @media (max-width: 1023px) {
-    .home-nav {
+    .page-nav {
         padding-top: 30px;
         &.active {
-            .home-nav__logo {
+            .page-nav__logo {
                 display: none;
             }
             nav {
@@ -86,7 +94,7 @@
 @media (max-width: 767px) {
 }
 @media (max-width: 639px) {
-    .home-nav {
+    .page-nav {
         &__logo {
             width: 200px;
         }
@@ -106,9 +114,9 @@
     }
 }
 @media (max-width: 479px) {
-    .home-nav {
+    .page-nav {
         &.active {
-            .home-nav__logo {
+            .page-nav__logo {
                 display: block;
             }
         }
@@ -131,6 +139,7 @@
         background: #000;
         transition: .3s;
         display: block;
+        z-index: 1;
         &__close {
             position: absolute;
             top: 0;
@@ -159,6 +168,9 @@
         &__link {
             color: #fff;
             font-size: 20px;
+            &.active {
+                color: $mainColor;
+            }
             &:hover {
                 color: $mainColor;
             }

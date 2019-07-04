@@ -77,6 +77,9 @@
 }
 @media (max-width: 1023px) {
 	.header-page{
+		&.block {
+			padding-top: 200px;
+		}
 		&__wrap {
 			flex-wrap: wrap;
 			justify-content: space-around;
@@ -95,7 +98,7 @@
 			font-size: 34px;
 		}
 		&__title {
-			margin: 50px;
+			margin-bottom: 50px;
 		}
 		&__subtitle {
 		    margin: -20px 0 20px;
@@ -120,12 +123,15 @@
 			font-size: 32px;
 		}
 		&__title {
-			margin: 40px;
+			margin-bottom: 40px;
 		}
 	}
  }
 @media (max-width: 639px) {
 	.header-page {
+		&.block {
+			padding-top: 150px;
+		}
 		&__title, &__subtitle {
 			font-size: 28px;
 		}

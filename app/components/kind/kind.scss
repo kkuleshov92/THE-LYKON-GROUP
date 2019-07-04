@@ -1,0 +1,127 @@
+.kind {
+    background: #efefef;
+    padding-top: 78px;
+    padding-bottom: 100px;
+    &__title {
+        color: #1e1e1e;
+        text-align: center;
+        width: 730px;
+        margin: 0 auto;
+        text-transform: none;
+    }
+    &__list {
+        justify-content: space-between;
+        display: flex;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+    &__item {
+        background: #fff;
+        padding-top: 45px;
+        width: 350px;
+        transition: all .2s linear;
+        border-radius: 0 0 10px 10px;
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.67);
+        }
+    }
+    &__item-title {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__text {
+        padding: 0 30px;
+        margin-top: 32px;
+    }
+    &__btn {
+        border-radius: 0 0 10px 10px;
+        width: 100%;
+        margin-top: 50px;
+        font-size: 28px;
+        height: 85px;
+        line-height: 85px;
+    }
+}
+
+
+@media (max-width: 1189px) {
+    .kind {
+        &__item {
+            width: 300px;
+            padding-top: 35px;
+        }
+        &__item-title {
+            font-size: 30px;
+        }
+        &__btn {
+            font-size: 26px;
+            height: 80px;
+            line-height: 80px;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .kind {
+        &__title {
+            width: 100%;
+        }
+        &__item {
+            width: 100%;
+            margin-bottom: 20px;
+            padding-top: 20px;
+            &:hover {
+                transform: none;
+            }
+        }
+        &__list {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        &__text {
+            margin-top: 10px;
+            padding: 0 25px;
+        }
+        &__item-title {
+            font-size: 28px;
+        }
+        &__btn {
+            margin-top: 20px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .kind {
+        &__item-title {
+            font-size: 26px;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    .kind {
+        &__item-title {
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+    .kind {
+        &__item-title {
+            font-size: 22px;
+        }
+        &__text {
+            padding: 0 15px;
+        }
+    }
+}

@@ -1,23 +1,83 @@
+.invest {
+	background: url('../img/serv-back2.jpg') center center / cover;
+	padding: 92px 0 82px;
+	&__title {
+		width: 730px;
+		text-align: center;
+		text-transform: none;
+		margin: 0 auto;
+		line-height: 1.22em;
+	}
 
+	&__title span {
+		color: $mainColor;
+	}
+
+	&__content {
+		color: #f0f0f0;
+		font-size: 26px;
+		padding: 42px 0 49px;
+	}
+
+	&__btn {
+		font-size: 22px;
+		width: 350px;
+		margin: 0 auto;
+	}
+}
 
 
 
 @media (max-width: 1189px) {
-	
+	.invest {
+		&__content {
+			font-size: 25px;
+			width: 97%;
+			margin: 0 auto;
+		}
+	}
 }
 
 @media (max-width: 1023px) {
-	
+	.invest {
+		&__title {
+			width: 90%;
+		}
+		&__content {
+			font-size: 23px;
+			padding: 35px 0 40px;
+		}
+		&__btn {
+			font-size: 21px;
+			width: 300px;
+		}
+	}
 }
 
 @media (max-width: 767px) {
-	
+	.invest {
+		&__title {
+			width: 90%;
+		}
+		&__content {
+			font-size: 21px;
+			padding: 25px 0 30px;
+		}
+	}
 }
 
 @media (max-width: 639px) {
-	
+	.invest {
+		&__content {
+			font-size: 20px;
+		}
+		&__btn {
+			font-size: 19px;
+			width: 250px;
+		}
+	}
 }
 
 @media (max-width: 479px) {
-	
+	.invest {}
 }

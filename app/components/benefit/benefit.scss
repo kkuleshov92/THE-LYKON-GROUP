@@ -15,8 +15,7 @@
 		display: flex;
 		position: relative;
 		border-left: 2px solid #bfbfbf;
-		padding: 18px 0 0 59px;
-		margin-bottom: 48px;
+		padding: 18px 0 48px 59px;
 	}
 
 	&__icon{
@@ -77,9 +76,9 @@
 			margin-top: 35px;
 		}
 		&__item {
-			margin-bottom: 20px;
+			padding: 18px 0 20px 59px;
 			&_border {
-				margin: 0;
+				padding-bottom: 0;
 			}
 		}
 

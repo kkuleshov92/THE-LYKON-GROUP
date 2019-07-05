@@ -11,7 +11,7 @@
 //=include ../components/help/help.js
 //=include ../components/slogan/slogan.js
 //=include ../components/story/story.js
-//=include ../components/contact/contact.js
+//=include ../components/info/info.js
 //=include ../components/programs/programs.js
 //=include ../components/invest/invest.js
 //=include ../components/benefit/benefit.js

@@ -1,4 +1,4 @@
-.contact {
+.info {
 	background: url(../img/about-backg3.jpg) no-repeat center top / cover;
 	padding: 86px 0 99px;
 
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 1189px) {
-	.contact {
+	.info {
 		&__title {
 			width: 670px;
 			font-size: 40px;
@@ -31,7 +31,7 @@
 	}
  }
 @media (max-width: 1023px) {
-	.contact {
+	.info {
 		&__title {
 			width: 475px;
 			font-size: 36px;
@@ -39,7 +39,7 @@
 	}
  }
 @media (max-width: 767px) {
-	.contact {
+	.info {
 		&__wrap {
 			flex-direction: column;
 			align-items: center;
@@ -59,14 +59,14 @@
 	}
  }
 @media (max-width: 639px) {
-	.contact {
+	.info {
 		&__title {
 			font-size: 27px;
 		}
 	}
  }
 @media (max-width: 479px) {
-	.contact {
+	.info {
 		&__title {
 			font-size: 25px;
 		}

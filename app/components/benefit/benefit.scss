@@ -15,7 +15,8 @@
 		display: flex;
 		position: relative;
 		border-left: 2px solid #bfbfbf;
-		padding: 18px 0 48px 59px;
+		padding: 18px 0 0 59px;
+		margin-bottom: 48px;
 	}
 
 	&__icon{
@@ -76,8 +77,12 @@
 			margin-top: 35px;
 		}
 		&__item {
-			padding: 18px 0 20px 59px;
+			margin-bottom: 20px;
+			&_border {
+				margin: 0;
+			}
 		}
+
 	}	
 }
 
@@ -98,7 +103,10 @@
 			font-size: 21px;
 		}
 		&__item {
-			padding: 18px 0 20px 45px;;
+			padding: 18px 0 0 45px;
+			&_border {
+				margin: 0;
+			}
 		}
 	}	
 }
@@ -117,6 +125,9 @@
 		}
 		&__subtitle {
 			text-align: center;
+		}
+		&__text {
+			margin-top: 10px;
 		}
 	}	
 }

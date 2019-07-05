@@ -4,6 +4,7 @@
 //=include ../components/header/header.js
 //=include ../components/kind/kind.js
 //=include ../components/reason/reason.js
+//=include ../components/result/result.js
 //=include ../components/process/process.js
 //=include ../components/header-page/header-page.js
 //=include ../components/borrow/borrow.js

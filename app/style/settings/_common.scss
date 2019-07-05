@@ -1,5 +1,46 @@
 $mainColor: #dcac22;
 
+
+@font-face {
+  font-family: 'Cabin 400';
+  src: url('../fonts/cabin-400.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/cabin-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/cabin-400.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/cabin-400.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/cabin-400.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/cabin-400.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Cabin 700';
+  src: url('../fonts/cabin-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/cabin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/cabin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/cabin-700.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/cabin-700.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/cabin-700.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Roboto Condensed 400';
+  src: url('../robotocondensed-400.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/robotocondensed-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/robotocondensed-400.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/robotocondensed-400.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/robotocondensed-400.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/robotocondensed-400.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Roboto Condensed 700';
+  src: url('../fonts/robotocondensed-700.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/robotocondensed-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/robotocondensed-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/robotocondensed-700.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/robotocondensed-700.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/robotocondensed-700.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 body {	
 	font-family: 'Cabin', sans-serif;
 	font-size: 19px;

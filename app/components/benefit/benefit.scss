@@ -8,10 +8,14 @@
 
 	&__wrap {
 		margin-top: 58px;
+		padding-left: 34px;
 	}
 
 	&__item {
 		display: flex;
+		position: relative;
+		border-left: 2px solid #bfbfbf;
+		padding: 18px 0 48px 59px;
 	}
 
 	&__icon{
@@ -19,15 +23,17 @@
 		border-radius: 50%;
 		width: 65px;
 		height: 65px;
+		display: flex;
+		justify-content: center;
 		align-items: center;
-		font-weight: 28;
 		color: #fff;
-		margin-right: 30px;
+		left: -36px;
+		top: -1px;
+		position: absolute;
 	}
 
 	&__content {
-		width: 90%;
-		margin: 18px 0 48px;
+		width: 96%;
 	}
 
 	&__subtitle {
@@ -39,26 +45,78 @@
 	&__text {
 		margin-top: 16px;
 	}
+
+	&__item_border {
+		border: none;
+	}
 }
 
 
 
 @media (max-width: 1189px) {
-	.benefit {}	
+	.benefit {
+		&__subtitle {
+			font-size: 26px;
+		}
+	}	
 }
 
 @media (max-width: 1023px) {
-	.benefit {}	
+	.benefit {
+		&__subtitle {
+			font-size: 24px;
+		}
+		&__title {
+			text-align: center;
+		}
+		&__content {
+			width: 100%;
+		}
+		&__wrap {
+			margin-top: 35px;
+		}
+		&__item {
+			padding: 18px 0 20px 59px;
+		}
+	}	
 }
 
 @media (max-width: 767px) {
-	.benefit {}	
+	.benefit {
+		&__subtitle {
+			font-size: 22px;
+		}
+		&__wrap {
+			margin-top: 20px;
+		}
+	}	
 }
 
 @media (max-width: 639px) {
-	.benefit {}	
+	.benefit {
+		&__subtitle {
+			font-size: 21px;
+		}
+		&__item {
+			padding: 18px 0 20px 45px;;
+		}
+	}	
 }
 
 @media (max-width: 479px) {
-	.benefit {}	
+	.benefit {
+		&__icon {
+			display: none;
+		}
+		&__item {
+			border-left: none;
+			padding: 0 0 20px;
+		}
+		&__wrap {
+			padding: 0;
+		}
+		&__subtitle {
+			text-align: center;
+		}
+	}	
 }

@@ -1,4 +1,6 @@
 .reason {
+    padding-top: 126px;
+    padding-bottom: 222px;
     background: url('../img/reason-bg.png') no-repeat center top / cover;
     &__top {
         display: flex;
@@ -8,8 +10,85 @@
     }
     &__title {
         font-size: 43px;
+        width: 500px;
+        text-align: center;
+        text-transform: none;
+        line-height: 1.25;
     }
     &__text {
         font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+        width: 560px;
+    }
+    &__btn {
+        font-size: 17px;
+        height: 49px;
+        line-height: 49px;
+        padding: 0 37px;
+        margin-top: 32px;
+    }
+}
+
+
+@media (max-width: 1189px) {
+    .reason {
+        padding-top: 100px;
+        padding-bottom: 180px;
+        &__title {
+            font-size: 40px;
+        }
+        &__text {
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 1023px) {
+    .reason {
+        &__title {
+            font-size: 38px;
+            width: 100%;
+        }
+        &__text {
+            font-size: 26px;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .reason {
+        &__title {
+            font-size: 36px;
+        }
+        &__text {
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    .reason {
+        &__title {
+            font-size: 34px;
+        }
+        &__text {
+            font-size: 22px;
+        }
+        &__btn {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 479px) {
+    .reason {
+        &__title {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 20px;
+        }
     }
 }

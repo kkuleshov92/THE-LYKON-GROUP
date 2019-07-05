@@ -1,0 +1,58 @@
+.process {
+    &__title {
+        font-size: 43px;
+        color: #fff;
+        background: $mainColor;
+        text-align: center;
+        padding: 108px 0;
+    }
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__item {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        font-size: 34px;
+        color: #383838;
+    }
+    &__right {
+        max-width: 540px;
+    }
+    &__left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 570px;
+    }
+    &__btn {
+        font-size: 17px;
+        line-height: 49px;
+        height: 49px;
+        padding: 0 27px;
+    }
+}
+
+@media (max-width: 1189px) {
+
+}
+
+@media (max-width: 1023px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 639px) {
+
+}
+
+@media (max-width: 479px) {
+
+}

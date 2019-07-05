@@ -73,7 +73,7 @@ gulp.task('style', function(done){
     	  cascade: false 
     	}))
     	// .pipe(csso({
-    		// forceMediaMerge: true
+    	// 	forceMediaMerge: true
     	// }))
     	.pipe(sourcemaps.write())
     	.pipe(gulp.dest(path.build.style))
@@ -129,9 +129,9 @@ gulp.task('deploy:style', function(){
 			browsers: ['last 2 versions'],
 			cascade: false 
 		}))
-		.pipe(csso({
-    		// forceMediaMerge: true
-    	}))
+		// .pipe(csso({
+    	// 	// forceMediaMerge: true
+    	// }))
 		.pipe(gulp.dest(path.build.style))
 });
 

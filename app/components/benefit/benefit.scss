@@ -1,31 +1,43 @@
 .benefit {
+	padding: 81px 0 83px;
+
 	&__title {
 		color: #3a3a3a;
+		text-transform: none;
 	}
 
 	&__wrap {
-
+		margin-top: 58px;
 	}
 
 	&__item {
-
+		display: flex;
 	}
 
 	&__icon{
-
+		background: $mainColor;
+		border-radius: 50%;
+		width: 65px;
+		height: 65px;
+		align-items: center;
+		font-weight: 28;
+		color: #fff;
+		margin-right: 30px;
 	}
 
 	&__content {
-
+		width: 90%;
+		margin: 18px 0 48px;
 	}
 
 	&__subtitle {
 		color: #3a3a3a;
 		font-size: 28px;
+		font-family: 'Roboto Condensed', sans-serif;
 	}
 
 	&__text {
-
+		margin-top: 16px;
 	}
 }
 

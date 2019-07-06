@@ -3,6 +3,7 @@
 //=include ../components/page-nav/page-nav.js
 //=include ../components/header/header.js
 //=include ../components/header-contact/header-contact.js
+//=include ../components/header-apply/header-apply.js
 //=include ../components/kind/kind.js
 //=include ../components/reason/reason.js
 //=include ../components/result/result.js
@@ -17,4 +18,5 @@
 //=include ../components/programs/programs.js
 //=include ../components/invest/invest.js
 //=include ../components/benefit/benefit.js
+//=include ../components/choice/choice.js
 //=include ../components/footer/footer.js

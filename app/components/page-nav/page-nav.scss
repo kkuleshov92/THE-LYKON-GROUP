@@ -53,6 +53,14 @@
     }
 }
 
+.contact-page .page-nav__link {
+    color: #1e1e1e;
+}
+
+.page-nav .page-nav__link:hover {
+    color: $mainColor;
+}
+
 .about-page .page-nav__link_about,
 .services-page .page-nav__link_services,
 .contact-page  .page-nav__link_contact,

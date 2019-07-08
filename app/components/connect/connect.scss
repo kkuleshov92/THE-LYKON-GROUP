@@ -1,4 +1,54 @@
 .connect {
+	background: #efefef;
+	padding: 63px 0 108px;
+
+	&__wrap {
+		width: 350px;
+	}
+
+	&__wrap i {
+		font-size: 34px;
+		color: fff;
+	}
+
+	&__content {
+
+	}
+
+	&__item {
+		display: flex;
+		margin-bottom: 44px;
+	}
+
+	&__item_push {
+		margin-bottom: 0;
+	}
+
+	&__icon {
+		width: 65px;
+		height: 65px;
+		background: $mainColor;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 27px;
+	}
+
+	&__info {
+		padding-top: 22px;
+	}
+
+	&__subtitle {
+		font-size: 28px;
+		color: #3a3a3a;
+		font-family: 'Roboto Condensed', sans-serif;
+		margin-bottom: 15px;
+	}
+
+	&__link {
+		color: #616161;
+	}
 
 }
 

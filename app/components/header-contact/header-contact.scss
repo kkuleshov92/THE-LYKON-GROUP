@@ -1,14 +1,51 @@
 .header-contact {
+	margin-top: 135px;
+	background: #efefef;
+	padding: 94px 0 0;
 
+	&__wrap {
+		border-bottom: 2px solid #bdbdbd;
+		padding-bottom: 50px;
+	}
+
+	&__title {
+		color: #1e1e1e;
+		font-size: 36px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	&__text {
+		width: 730px;
+		margin: 29px auto 0;
+	}
 }
 
 @media (max-width: 1189px) { 
+	&__title {
+		font-size: 32px;
+	}
 }
 @media (max-width: 1023px) {
+	&__title {
+		font-size: 30px;
+	}
+	&__text {
+		width: 100%;
+		margin: 29px auto 0;
+	}
 }
 @media (max-width: 767px) {
+	&__title {
+		font-size: 28px;
+	}
 }
 @media (max-width: 639px) {
+	&__title {
+		font-size: 26px;
+	}
 }
 @media (max-width: 479px) {
+	&__title {
+		font-size: 24px;
+	}
 }

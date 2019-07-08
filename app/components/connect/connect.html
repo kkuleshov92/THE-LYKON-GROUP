@@ -44,11 +44,13 @@
 				</div>
 			</div>
 			<form class="connect__form form">
-				<input type="text" class="form__input" placeholder="Name" name="name">
-				<input type="email" class="form__input" placeholder="Email" name="E-mail" >
-				<input type="tel" class="form__input" placeholder="Phone" name="phone">
-				<textarea  type="text" class="form__input" placeholder="Message" name="message">
-				<button type="submit" class="send">Send</button>
+				<input type="text" class="form__input" placeholder="Name" name="name" required>
+				<input type="email" class="form__input form__input_short form__input_push" placeholder="Email" name="E-mail" required>
+				<input type="tel" class="form__input form__input_short" placeholder="Phone" name="phone" required>
+				<textarea type="text" class="form__input form__input_height" placeholder="Message" name="message"></textarea>
+				<button type="submit" class="form__btn btn">
+					Send
+				</button>
 			</form> 
 		</div>
 	</div>

@@ -1,5 +1,5 @@
 .header-contact {
-	margin-top: 135px;
+	margin-top: 155px;
 	background: #efefef;
 	padding: 94px 0 0;
 
@@ -29,6 +29,7 @@
 }
 @media (max-width: 1023px) {
 	.header-contact {
+		margin-top: 135px;
 		&__title {
 			font-size: 30px;
 		}
@@ -43,10 +44,14 @@
 		&__title {
 			font-size: 28px;
 		}
+		&__wrap {
+			padding-bottom: 30px;
+		}
 	}
 }
 @media (max-width: 639px) {
 	.header-contact  {
+		margin-top: 120px;
 		&__title {
 			font-size: 26px;
 		}
@@ -54,6 +59,7 @@
 }
 @media (max-width: 479px) {
 	.header-contact {
+		margin-top: 85px;
 		&__title {
 			font-size: 24px;
 		}

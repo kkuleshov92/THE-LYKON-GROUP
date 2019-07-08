@@ -21,31 +21,41 @@
 }
 
 @media (max-width: 1189px) { 
-	&__title {
-		font-size: 32px;
+	.header-contact {
+		&__title {
+			font-size: 32px;
+		}
 	}
 }
 @media (max-width: 1023px) {
-	&__title {
-		font-size: 30px;
-	}
-	&__text {
-		width: 100%;
-		margin: 29px auto 0;
+	.header-contact {
+		&__title {
+			font-size: 30px;
+		}
+		&__text {
+			width: 100%;
+			margin: 29px auto 0;
+		}
 	}
 }
 @media (max-width: 767px) {
-	&__title {
-		font-size: 28px;
+	.header-contact {
+		&__title {
+			font-size: 28px;
+		}
 	}
 }
 @media (max-width: 639px) {
-	&__title {
-		font-size: 26px;
+	.header-contact  {
+		&__title {
+			font-size: 26px;
+		}
 	}
 }
 @media (max-width: 479px) {
-	&__title {
-		font-size: 24px;
+	.header-contact {
+		&__title {
+			font-size: 24px;
+		}
 	}
 }

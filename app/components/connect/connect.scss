@@ -3,7 +3,8 @@
 	padding: 63px 0 108px;
 
 	&__wrap {
-		width: 350px;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	&__wrap i {
@@ -12,7 +13,7 @@
 	}
 
 	&__content {
-
+		width: 350px;
 	}
 
 	&__item {
@@ -50,6 +51,17 @@
 		color: #616161;
 	}
 
+}
+.form {
+	&__input {
+		font-size: 19px;
+		width: 730px;
+		padding: 15px 30px;
+		margin-bottom: 20px;
+		border-radius: 10px;
+		border: 1px solid #bdbdbd;
+
+	}
 }
 
 @media (max-width: 1189px) {

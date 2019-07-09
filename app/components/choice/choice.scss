@@ -80,9 +80,51 @@
         color: #616161;
         cursor: pointer;
         padding: 42px 15px 24px;
-        &.active {
+        position: relative;
+        &_1 {
             background: #fff;
             border-bottom: 3px solid #ff0808;
+        }
+        &:hover > .choice__tabs-hover {
+            display: block;
+        }
+        &:hover .choice__arrow {
+            transform: rotate(180deg);
+        }
+    }
+    &__arrow {
+        margin-left: 5px;
+    }
+    &__tab-name {
+        display: flex;
+        min-width: 130px;
+    }
+    &__tabs-hover {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        background: #f8f8f8;
+        width: 100%;
+        z-index: 1;
+        display: none;
+        transition: .3s;
+    }
+    &__tabs-hidden {
+        line-height: 2;
+        padding: 10px 15px;
+        display: block;
+        &:hover {
+            background: #d5eefb;
+        }
+    }
+    &__content {
+        display: none;
+        &.active {
+            display: block;
+        }
+        &_2,
+        &_3 {
+            padding: 25px 0;
         }
     }
     &__form {

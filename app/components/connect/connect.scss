@@ -56,6 +56,8 @@
 .form {
 	width: 730px;
 	margin-top: 6px;
+	display: flex;
+	flex-wrap: wrap;
 	&__input {
 		font-size: 19px;
 		width: 730px;
@@ -80,7 +82,7 @@
 		height: 170px;
 	}
 	&__input_push {
-		margin-right: 25px;
+		margin-right: 30px;
 	}
 	&__btn {
 		width: 223px;
@@ -102,7 +104,7 @@
 			width: 100%;
 		}
 		&__input_short {
-			width: 47%;
+			width: 280px;
 		}
 	}
 }
@@ -146,6 +148,9 @@
 		}
 		&__input_short {
 			width: 100%;
+		}
+		&__input_push {
+			margin-right: 0;
 		}
 	}
 

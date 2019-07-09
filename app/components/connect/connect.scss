@@ -63,6 +63,10 @@
     	margin-bottom: 15px;
 		border-radius: 10px;
 		border: 1px solid #bdbdbd;
+		height: 52px;
+	}
+	&__input:focus {
+		border: 1px solid $mainColor;
 	}
 	::-webkit-input-placeholder {color:#9b9b9b; font-family: 'Cabin';}
 	::-moz-placeholder          {color:#9b9b9b; font-family: 'Cabin';}

@@ -8,3 +8,13 @@ $('.choice__tabs-hidden').click(function() {
     $(activeBody).addClass('active');
 });
 
+$('.choice__info').click(function (){
+    $(this).find('.choice__info-modal').addClass('active');
+});
+
+$(document).on('click', function(e) {
+    if (!$(e.target).closest('.choice__info').length) {
+        $('.choice__info-modal').removeClass('active');
+    }
+    e.stopPropagation();
+});
